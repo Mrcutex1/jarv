@@ -6,7 +6,7 @@ from DAXXMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "aboutcutex"
+MUST_JOIN = "Ace_networkop"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):

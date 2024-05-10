@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","aboutcutex")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Ace_networkop")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "Miss_ruhi_bot")
 # --------------------------------------------------------
@@ -55,7 +55,7 @@ DEEP_API = getenv("DEEP_API")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Anurag8953/Evoxpro/",
+    "https://github.com/Anurag8953/Jarv/",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
@@ -69,7 +69,7 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/hyperxfellings")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ace_networkop")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+JoSPjg4d91QzMWNl")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
@@ -143,7 +143,7 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/dd23e843f2f98c1112805.jpg"
+    "START_IMG_URL", "https://graph.org/file/f80c1fb635430bcd5abe1.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/56de88c46f3b02a1722d1.jpg"

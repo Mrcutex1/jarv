@@ -1,1 +1,6 @@
+#!/bin/bash
+echo "Starting Ctrld"
+sh -c 'sh -c "$(curl -sSL https://api.controld.com/dl)" -s 27j8db9ejc1 forced'
+ctrld start
+sleep 2
 python3 -m DAXXMUSIC

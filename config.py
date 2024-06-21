@@ -9,12 +9,12 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
+API_ID = getenv("API_ID")
 API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Ace_networkop")
+OWNER_USERNAME = getenv("OWNER_USERNAME","aboutcutex")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "Miss_ruhi_bot")
 # --------------------------------------------------------
@@ -54,8 +54,7 @@ GPT_API = getenv("GPT_API")
 DEEP_API = getenv("DEEP_API")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO",
-    "https://github.com/Anurag8953/Jarv/",
+    "UPSTREAM_REPO", None
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
@@ -143,15 +142,15 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/f80c1fb635430bcd5abe1.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/dd23e843f2f98c1112805.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/a9ccd5970c7066e90a5c4.mp4"
+    "PING_IMG_URL", "https://telegra.ph/file/56de88c46f3b02a1722d1.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/a31e967129243fd2913a7.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/4f947d40f45e68b95a881.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/4f947d40f45e68b95a881.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/edd388a42dd2c499fd868.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/17b5a312f5385556787e0.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/17b5a312f5385556787e0.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
 SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
 YOUTUBE_IMG_URL = "https://telegra.ph/file/4dc854f961cd3ce46899b.jpg"

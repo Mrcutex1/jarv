@@ -1,1 +1,6 @@
-<a href="https://heroku.com/deploy?template=https://github.com/golujha9936/EvoXpro"><img align="center" alt="Heroku" width="92px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png"></p>
+```
+docker image rm Jarv
+docker container rm Jarv -f > /dev/null
+docker build -t Jarv .
+docker run -d --restart=unless-stopped --name Jarv Jarv
+```

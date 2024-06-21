@@ -1,0 +1,97 @@
+import re
+from os import getenv
+
+from dotenv import load_dotenv
+from pyrogram import filters
+
+load_dotenv()
+
+API_ID = "24490919"
+API_HASH = "d1b3b15126c47dd4cb491553ee1db910"
+BOT_TOKEN = "6709316554:AAHqEFBVDjK2EjRvbjBCQOgcqvcOZWkTlu4"
+OWNER_USERNAME = "aboutcutex"
+BOT_USERNAME = "Miss_ruhi_bot"
+BOT_NAME = "CUTE X MUSIC"
+ASSUSERNAME = "Piku_Chiku_2"
+MONGO_DB_URI = "mongodb+srv://ay981023089:ay9810230@cluster0.x83hsy0.mongodb.net/?retryWrites=true&w=majority"
+DURATION_LIMIT_MIN = "17000"
+LOGGER_ID = "-1001899756930"
+OWNER_ID = "5111294407"
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
+GPT_API = "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"
+DEEP_API = "761bd6eb-ab6c-466c-adb6-f3b97ef72c83"
+UPSTREAM_REPO = "https://github.com/hostdam/alexa-aio"
+UPSTREAM_BRANCH = "master"
+GIT_TOKEN = "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"
+SUPPORT_CHANNEL = "https://t.me/Ace_networkop"
+SUPPORT_CHAT = "https://t.me/+JoSPjg4d91QzMWNl"
+AUTO_LEAVING_ASSISTANT = "True"
+AUTO_LEAVE_ASSISTANT_TIME = "9000"
+SONG_DOWNLOAD_DURATION = "9999999"
+SONG_DOWNLOAD_DURATION_LIMIT = "9999999"
+SPOTIFY_CLIENT_ID = "1c21247d714244ddbb09925dac565aed"
+SPOTIFY_CLIENT_SECRET = "709e1a2969664491b58200860623ef19"
+PLAYLIST_FETCH_LIMIT = "25"
+TG_AUDIO_FILESIZE_LIMIT = "5242880000"
+TG_VIDEO_FILESIZE_LIMIT = "5242880000"
+STRING1 = "BQF1s6cALczuMsDE6aOYDxsv0NDR0WBlj97sG8lGiOhv0y68-brZWJ_Go7BlzxAnO9c67cJXwZawEfwqNv_tySRnVerwfqR4e46yb7Lag5zXXXPD9bSfg125LZk0u6LZwC5l6yDCFR2zVN0N3nqRlj060wsDRUZKg12D_8feGaK5In-i2rIHLDITIoRG41eeZ26k_2xcxIuEpHEPUuFbPZVFMkU4gH61Kz5RVVqyxOnRmolFVClcJegSs_Hwfp-YGH2GrOoiOIXISwViGX3izCCYe4EG1vKrLVbAxip4DE3XPZ7K8UMXpUxDr85_lUvEDZhFS65whFgykQrFOe9C_36Wdb-u1gAAAAGiJDfSAA"
+STRING2 = getenv("STRING_SESSION2", None)
+STRING3 = getenv("STRING_SESSION3", None)
+STRING4 = getenv("STRING_SESSION4", None)
+STRING5 = getenv("STRING_SESSION5", None)
+STRING6 = getenv("STRING_SESSION6", None)
+STRING7 = getenv("STRING_SESSION7", None)
+BANNED_USERS = filters.user()
+adminlist = {}
+lyrical = {}
+votemode = {}
+autoclean = []
+confirmer = {}
+
+# ------------------------------------------------------------------------
+START_IMG_URL = getenv(
+    "START_IMG_URL", "https://telegra.ph/file/dd23e843f2f98c1112805.jpg"
+)
+PING_IMG_URL = getenv(
+    "PING_IMG_URL", "https://telegra.ph/file/56de88c46f3b02a1722d1.jpg"
+)
+PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/edd388a42dd2c499fd868.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/17b5a312f5385556787e0.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/17b5a312f5385556787e0.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/4dc854f961cd3ce46899b.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/5c2c41d52e8819dcbb867.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/56de88c46f3b02a1722d1.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/56de88c46f3b02a1722d1.jpg"
+
+# ------------------------------------------------------------------------
+# ------------------------------------------------------------------------
+# ------------------------------------------------------------------------
+# ------------------------------------------------------------------------
+def time_to_seconds(time):
+    stringt = str(time)
+    return sum(int(x) * 60**i for i, x in enumerate(reversed(stringt.split(":"))))
+
+
+DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
+
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+if SUPPORT_CHANNEL:
+    if not re.match("(?:http|https)://", SUPPORT_CHANNEL):
+        raise SystemExit(
+            "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://"
+        )
+
+if SUPPORT_CHAT:
+    if not re.match("(?:http|https)://", SUPPORT_CHAT):
+        raise SystemExit(
+            "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
+        )
+# ---------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------

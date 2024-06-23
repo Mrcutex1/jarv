@@ -14,9 +14,9 @@ echo \
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
-docker build -t Jarv .
-docker container rm Jarv -f > /dev/null
-docker run -d --restart=unless-stopped --name Jarv Jarv
+docker build -t jarv .
+docker container rm jarv -f > /dev/null
+docker run -d --restart=unless-stopped --name jarv jarv
 
 sleep 2
 echo "Error 6783976546789098765"

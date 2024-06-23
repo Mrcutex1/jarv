@@ -3,7 +3,7 @@
 
 ### Clone the repo .
 ```
-git clone https://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@github.com/Mrcutex1/Jarv.git && cd Jarv
+git clone https://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@github.com/Mrcutex1/jarv.git && cd Jarv
 ```
 
 ### IF FRESH VPS THEN
@@ -15,12 +15,12 @@ chmod 777 * && bash docker.sh
 
 ```
 docker container rm Jarv -f > /dev/null
-docker image rm Jarv
-docker build -t Jarv .
-docker run -d --restart=unless-stopped --name Jarv Jarv
+docker image rm jarv
+docker build -t jarv .
+docker run -d --restart=unless-stopped --name jarv jarv
 ```
 
 ### Check Docker Logs
 ```
-docker logs Jarv -f
+docker logs jarv -f
 ```

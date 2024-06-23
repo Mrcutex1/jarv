@@ -5,8 +5,11 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
+RUN git clone https://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@github.com/Mrcutex1/jarv /app
+WORKDIR /app
+RUN pip3 install -U -r requirements.txt
+
 COPY . /app/
-WORKDIR /app/
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
 CMD bash start

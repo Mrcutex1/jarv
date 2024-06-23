@@ -11,5 +11,6 @@ RUN pip3 install -U -r requirements.txt
 
 COPY . /app/
 RUN pip3 install --no-cache-dir -U -r requirements.txt
+RUN chmod 777 *
 
 CMD bash start

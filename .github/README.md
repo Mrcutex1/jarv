@@ -3,7 +3,7 @@
 
 ### Clone the repo .
 ```
-git clone https://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@github.com/Mrcutex1/jarv.git && cd Jarv
+git clone https://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@github.com/Mrcutex1/jarv.git && cd jarv
 ```
 
 ### IF FRESH VPS THEN

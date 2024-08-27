@@ -47,7 +47,7 @@ youtube-search-python==1.6.6
 gtts
 SafoneAPI
 lexica-api==1.5.4
-httpx==0.25.2
+httpx==0.27.2
 gpytranslate
 openai==0.28.0
 pickledb

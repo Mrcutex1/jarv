@@ -8,7 +8,7 @@ from pytgcalls.types.input_stream import InputAudioStream
 import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
-from youtubesearchpython.__future__ import VideosSearch
+from youtubesearchpython.__future__ import VideosSearch, CustomSearch
 
 from DAXXMUSIC.utils.database import is_on_off
 from DAXXMUSIC.utils.formatters import time_to_seconds

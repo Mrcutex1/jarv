@@ -37,6 +37,11 @@
         "value": "",
         "required": true
       },
+      "YTPROXY_URL": {
+        "description": "YT Proxy Server Endpoint",
+        "value": "",
+        "required": true
+      },
       "STRING_SESSION": {
         "description": "A Pyrogram v2 String Session from @STRINGSEASO_NBOT on Telegram.",
         "value": "",
